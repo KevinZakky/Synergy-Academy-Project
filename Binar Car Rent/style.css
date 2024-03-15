@@ -1,0 +1,293 @@
+:root {
+  --dark-blue-04: #0d28a6;
+  --lime-green: #5cb85f;
+  --dark-blue-01: #cfd4ed;
+  --alert: #f9cc00;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 3226px;
+  color: #000;
+  overflow-x: hidden;
+}
+
+/* Navbar section  */
+.navbar {
+  padding: 2rem 10%;
+  z-index: 999;
+}
+
+.navbar-brand,
+.footer-brand {
+  width: 100px;
+  height: 34px;
+  background-color: var(--dark-blue-04);
+}
+
+.nav-item button,
+.btn-sewa,
+.cta-banner .btn-sewa {
+  background-color: var(--lime-green);
+  border: none;
+  color: #fff;
+}
+
+.btn-register:hover {
+  background-color: var(--lime-green);
+}
+
+.nav-link {
+  color: #000;
+}
+
+/* hero section */
+
+.hero .main-text h1 {
+  padding: 1rem 0 0 20%;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 54px;
+  width: 700px;
+}
+
+.hero .main-text p {
+  width: 29rem;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 1.5rem 0 0 20%;
+  line-height: 20px;
+}
+
+.hero .btn-sewa {
+  margin: 1rem 0 0 20%;
+  color: #fff;
+  background-color: var(--lime-green);
+}
+
+.our-services-img img {
+  margin-left: 22%;
+}
+
+.our-services-text {
+  margin-left: 3rem;
+  margin-top: 2.2rem;
+}
+
+.our-services-text p {
+  width: 526px;
+  height: 60px;
+  size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-top: 2rem;
+}
+
+.why-us {
+  padding-top: 6rem;
+}
+
+.why-us h3 {
+  font-weight: bold;
+  font-size: 24px;
+  padding-left: 10%;
+}
+
+.why-us p {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 1.5rem;
+  line-height: 20px;
+  padding-left: 10%;
+}
+
+.col-list-why {
+  width: 268px;
+  height: 196px;
+  border-radius: 8px;
+  border: 1px solid #d0d0d0;
+  margin-top: 2rem;
+}
+
+.col-list-why img,
+.col-list-why h5 {
+  padding: 2rem 0 0 2rem;
+}
+
+.col-list-why h5 {
+  padding-top: 1rem;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.col-list-why p {
+  font-size: 14px;
+  font-weight: 300;
+  padding-left: 2rem;
+}
+
+section.testimonial {
+  width: 100%;
+}
+
+section.testimonial .owl-carousel {
+  width: 100%;
+}
+
+.testimonial h3,
+.testimonial p {
+  text-align: center;
+}
+
+.testimonial .title h3 {
+  margin-top: 7rem;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.testimonial .title p {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 1.5rem;
+}
+
+.testimonial-box {
+  width: 619px;
+  height: 270px;
+  background-color: #f1f3ff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.testimonial-img-profile {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.testimonial-box a {
+  color: var(--alert);
+}
+
+.testimonial-box p {
+  width: 413px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  text-align: left;
+  margin: 1rem 0 1rem 0;
+}
+
+.testimonial-box h5 {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: #000;
+}
+
+.text-center button {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 0 10px 0 10px;
+  border: 1px solid #c4c4c4;
+}
+
+.cta-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container-banner {
+  width: 1168px;
+  height: 326px;
+  background-color: var(--dark-blue-04);
+  border-radius: 13px;
+  text-align: center;
+}
+
+.banner-text {
+  color: #fff;
+  margin: auto;
+}
+
+.banner-text h1 {
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 4rem;
+}
+
+.banner-text p {
+  width: 468px;
+  font-weight: 300;
+  font-size: 14px;
+  margin: 1.5rem auto 3rem;
+  line-height: 20px;
+}
+
+.cta-banner .btn-sewa {
+  border-radius: 2px;
+}
+
+.faq .row h2 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 1.4rem;
+}
+
+.faq .row p {
+  width: 368px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.accordion-item {
+  margin-bottom: 1.3rem;
+  border-radius: 4px;
+}
+
+footer {
+  padding-top: 8rem;
+}
+
+footer .address p {
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 0.5rem;
+}
+
+.section-link ul li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.section-link a {
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer-icons ul {
+  display: flex;
+  padding: 0;
+}
+
+.footer-icons ul li {
+  margin-right: 1rem;
+  list-style: none;
+  margin-left: 0;
+}
